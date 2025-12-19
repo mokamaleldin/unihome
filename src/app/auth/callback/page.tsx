@@ -7,15 +7,22 @@ export default function AuthCallback() {
     const router = useRouter();
 
     useEffect(() => {
-        const getUser = async () => {
+        const handleAuth = async () => {
             try {
-                const { data: { user } } = await supabase.auth.getUser();
+                // Handle the OAuth callback - this will extract tokens from URL hash
+                const { data: { session }, error } = await supabase.auth.getSession();
+                
+                if (error) {
+                    console.error('Auth callback error:', error);
+                    router.push('/Auth');
+                    return;
+                }
 
-                if (user) {
+                if (session) {
                     // Successfully authenticated, redirect to home
                     router.push('/');
                 } else {
-                    // No user found, redirect to auth page
+                    // No session found, redirect to auth page
                     router.push('/Auth');
                 }
             } catch (error) {
@@ -25,7 +32,7 @@ export default function AuthCallback() {
             }
         };
 
-        getUser();
+        handleAuth();
     }, [router]);
 
     return (

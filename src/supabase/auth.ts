@@ -2,10 +2,15 @@ import { supabase } from './supabase-client';
 
 export const signInWithGoogle = async () => {
     try {
+        // Use current origin for redirect to work in both dev and production
+        const redirectUrl = typeof window !== 'undefined' 
+            ? `${window.location.origin}/auth/callback`
+            : 'http://localhost:3000/auth/callback';
+            
         const { data, error } = await supabase.auth.signInWithOAuth({
             provider: 'google',
             options: {
-                redirectTo: 'https://pxeotczpqqmckyqstsnx.supabase.co/auth/v1/callback',
+                redirectTo: redirectUrl,
                 queryParams: {
                     access_type: 'offline',
                     prompt: 'consent',
