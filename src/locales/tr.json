@@ -1,0 +1,361 @@
+{
+  "common": {
+    "login": "GİRİŞ YAP",
+    "loading": "Yükleniyor...",
+    "error": "Hata",
+    "tryAgain": "Tekrar Dene",
+    "search": "Ara",
+    "filter": "Filtre",
+    "clear": "Temizle",
+    "apply": "Uygula",
+    "cancel": "İptal",
+    "save": "Kaydet",
+    "edit": "Düzenle",
+    "delete": "Sil",
+    "view": "Görüntüle",
+    "back": "Geri",
+    "next": "İleri",
+    "previous": "Önceki",
+    "submit": "Gönder",
+    "close": "Kapat"
+  },
+  "header": {
+  "title": "SAKNTALEB - Öğrenci Konaklama Platformu",
+  "description": "Mükemmel öğrenci konaklamanızı bulun",
+  "home": "Ana Sayfa",
+  "search": "Ara",
+  "about": "Hakkında",
+  "contact": "İletişim",
+  "admin": "Yönetici"
+  },
+  "auth": {
+    "welcome": "Hoş Geldiniz",
+    "signInDescription": "Google hesabınızla giriş yapın",
+    "checkingAuth": "Kimlik doğrulama kontrol ediliyor...",
+    "redirecting": "Dashboard'a yönlendiriliyorsunuz...",
+    "loginFailed": "Google girişi başarısız oldu. Lütfen tekrar deneyin.",
+    "signingIn": "Giriş yapılıyor..."
+  },
+  "search": {
+    "loading": "Emlaklar yükleniyor...",
+    "error": {
+      "title": "Bir şeyler ters gitti",
+      "tryAgain": "Tekrar Dene"
+    },
+    "filters": {
+      "location": "Konum",
+      "university": "Üniversiteye yakın",
+      "price": "Fiyat",
+      "min": "Min",
+      "max": "Maks",
+      "roomTypes": "Oda Türleri",
+      "clearAll": "Tümünü temizle"
+    },
+    "results": {
+      "noProperties": "Kriterlerinize uygun emlak bulunamadı."
+    },
+    "map": {
+      "title": "Harita",
+      "properties": "emlak"
+    },
+    "explanation": {
+      "title": "Filtreleri Nasıl Kullanılır",
+      "description": "Aramanızı tam istediğiniz gibi özelleştirebilirsiniz:",
+      "location": "Konum",
+      "locationDesc": "Belirli İstanbul ilçelerini seçin",
+      "university": "Üniversite",
+      "universityDesc": "Üniversitenize yakın konut bulun",
+      "priceRange": "Fiyat Aralığı",
+      "priceRangeDesc": "Minimum ve maksimum bütçe belirleyin",
+      "roomTypes": "Oda Türleri",
+      "roomTypesDesc": "Birden fazla oda konfigürasyonu seçin (yatak odası + oturma odası formatı)",
+      "mixMatch": "Mükemmel öğrenci konuntunuzu bulmak için filtreleri karıştırın ve eşleştirin!"
+    },
+    "card": {
+      "propertyInfo": "Emlak Bilgileri",
+      "viewDetails": "Detayları Görüntüle"
+    }
+  },
+  "property": {},
+  "contact": {
+    "header": {
+      "title": "İletişime Geçin",
+      "description": "Deneyiminizi iyileştirmek için geri bildirim ve önerilerinizi bekliyoruz. Topluluğumuzun bir parçasısınız - düşüncelerinizi, sorularınızı veya fikirlerinizi bizimle paylaşın!"
+    },
+    "form": {
+      "title": "Bize Mesaj Gönderin",
+      "successMessage": "Teşekkürler! Mesajınız başarıyla gönderildi.",
+      "nameLabel": "İsim",
+      "namePlaceholder": "Tam adınız",
+      "emailLabel": "E-posta Adresi",
+      "emailPlaceholder": "email@example.com",
+      "messageLabel": "Mesaj",
+      "messagePlaceholder": "Düşüncelerinizi, önerilerinizi, sorularınızı veya karşılaştığınız sorunları paylaşın. Her geri bildirimi değerlendiriyoruz!",
+      "sendButton": "Mesaj Gönder",
+      "sending": "Gönderiliyor..."
+    },
+    "community": {
+      "title": "Sizin İçin Buradayız! 🤝",
+      "description1": "Bizi mükemmel öğrenci konutu bulma konusunda arkadaşlarınız ve partnerleriniz olarak düşünün. Önerileriniz olsun, zorluklarla karşılaşın veya sadece deneyiminiz hakkında sohbet etmek isteyin - size kulak veriyoruz!",
+      "description2": "Paylaştığınız her fikir, tüm öğrenci topluluğu için daha iyi bir platform oluşturmamıza yardımcı oluyor. Sesiniz önemli ve birlikte öğrenci konut aramasını herkes için daha kolay hale getireceğiz.",
+      "ideaText": "Bir fikriniz var mı? Paylaşın!",
+      "questionsText": "Sorularınız mı var? Sorun!",
+      "bugText": "Hata mı buldunuz? Bize bildirin!"
+    },
+    "details": {
+      "title": "Doğrudan İletişime Geçin",
+      "emailLabel": "E-posta",
+      "emailAddress": "support@studenthousing.com",
+      "whatsappLabel": "WhatsApp",
+      "whatsappNumber": "+90 555 123 4567",
+      "responseLabel": "Yanıt Süresi",
+      "responseTime": "Genellikle 24 saat içinde"
+    },
+    "features": {
+      "title": "Heyecan Verici Özellikler Yakında! 🚀",
+      "description": "Deneyiminizi iyileştirmek için sürekli çalışıyoruz. Geri bildirimlerinize dayanarak geliştirdiklerimiz:",
+      "messaging": {
+        "title": "Platform İçi Mesajlaşma",
+        "description": "Kişisel iletişim bilgilerinizi paylaşmadan emlak sahipleri ve diğer öğrencilerle doğrudan sohbet edin. Güvenli, kullanışlı ve platformun içinde.",
+        "timeline": "2025 Q2'de Geliyor"
+      },
+      "reviews": {
+        "title": "Değerlendirme ve İnceleme Sistemi",
+        "description": "Diğer öğrencilerden dürüst incelemeler okuyun ve kendi deneyimlerinizi paylaşın. Topluluğun konut seçimlerinde bilinçli kararlar almasına yardımcı olun.",
+        "timeline": "2025 Q3'te Geliyor"
+      },
+      "verified": {
+        "title": "Doğrulanmış Emlak Rozeti",
+        "description": "Güvenle emin olun! Emlaklar ekibimiz tarafından kişisel olarak doğrulanacak, fotoğraf, fiyat ve emlak koşullarında doğruluk sağlanacak.",
+        "timeline": "2025 Q4'te Geliyor"
+      }
+    },
+    "finalCTA": {
+      "title": "Fikirleriniz Geleceğimizi Şekillendiriyor",
+      "description": "Geliştirdiğimiz her özellik sizin gibi harika kullanıcılardan gelen geri bildirimlerle başlar. İletişim kurmaktan çekinmeyin - görüşlerinizi gerçekten duymak istiyoruz!",
+      "closing": "Birlikte en iyi öğrenci konut platformunu inşa edelim! 🏠❤️"
+    }
+  },
+  "home": {
+    "whyChooseService": "NEDEN HİZMETİMİZİ SEÇMELİSİNİZ",
+    "hero": {
+      "commissionFree": "Komisyonsuz",
+      "studentHousing": "Öğrenci Konutu",
+      "impian": "Hayalinizdeki",
+      "simpleFastSecure": "Basit. Hızlı. Güvenli.",
+      "description": "Ülke genelinde güvenilir apartmanlar bulun — ekstra ücret ve güçlük olmadan.",
+      "browseListings": "İlanları Gözat"
+    },
+    "why": {
+      "subtitle": "NEDEN HİZMETİMİZİ KULLANMALISINIZ",
+      "title": "Apartmanınız İçin En İyi Hizmet Sonuçlarını Sağlıyoruz",
+      "testimonial": "Yeterli olanaklar, modern mekan",
+      "testimonialDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "feature1": "24 Saat Danışmanlık",
+      "feature2": "Sertifikalı Ekip",
+      "feature3": "Daha Fazla Ofis Şubesi",
+      "feature4": "En İyi Çalışma Sonucu"
+    },
+    "listings": {
+      "subtitle": "BLOGUMUZU OKUYUN",
+      "title": "Heyecan Verici Makale Gönderileri",
+      "viewAllBlog": "TÜM BLOGU GÖRÜNTÜLE"
+    }
+  },
+  "footer": {
+    "brand": {
+      "description1": "En iyi konaklama hizmet uygulaması",
+      "description2": "Endonezya'daki tüm apartman ve otellerde"
+    },
+    "links": {
+      "title": "Hızlı Bağlantılar",
+      "home": "Ana Sayfa",
+      "search": "ARA",
+      "contact": "İLETİŞİM",
+      "admin": "YÖNETİCİ"
+    },
+    "contact": {
+      "title": "Bizimle kalın",
+      "location": "Jakarta, Endonezya",
+      "email": "Hello@Email.com",
+      "phone": "( +62 ) 123 456 789"
+    },
+    "copyright": {
+      "text": "TELİF HAKKI",
+      "author": "MOHAMED KAMALELDIN"
+    }
+  },
+  "admin": {
+    "loading": "Yükleniyor...",
+    "rejected": "reddedildi çünkü",
+    "analytics": "Analitik",
+    "sidebar": {
+      "dashboard": "Kontrol Paneli",
+      "properties": "Emlaklanım",
+      "analytics": "Analitik",
+      "messages": "Mesajlar",
+      "settings": "Ayarlar",
+      "profile": "Profil",
+      "hostPortal": "Ev Sahibi Portalı",
+      "propertyPortal": "Emlak Portalı",
+      "studentHousing": "Öğrenci Konutu",
+      "logout": "Çıkış Yap"
+    },
+    "dashboard": {
+      "title": "Emlak Yönetim Paneli",
+      "subtitle": "Öğrenci konut ilanlarınızı yönetin",
+      "stats": {
+        "totalProperties": "Toplam Emlak",
+        "allTimeUploaded": "Tüm zamanlar yüklenmiş",
+        "liveProperties": "Canlı Emlaklar",
+        "currentlyActive": "Şu anda aktif",
+        "underReview": "İnceleme Altında",
+        "waitingApproval": "Onay bekliyor",
+        "rejected": "Reddedilen",
+        "needRevision": "Revizyon gerekli"
+      },
+      "actions": {
+        "addProperty": "Yeni Emlak Ekle",
+        "addPropertyDesc": "Yeni bir öğrenci konut ilanı oluştur",
+        "manageProperties": "Emlakları Yönet",
+        "managePropertiesDesc": "Mevcut ilanlarınızı görüntüleyin ve düzenleyin",
+        "analytics": "Analitik",
+        "analyticsDesc": "Performans ölçümlerini ve içgörüleri görüntüleyin"
+      }
+    },
+    "propertyList": {
+      "title": "Emlaklanım",
+      "addProperty": "Yeni Emlak Ekle",
+      "noProperties": "Henüz Emlak Yok",
+      "noPropertiesDesc": "Platformda ilk emlakınızı ekleyerek başlayın",
+      "addFirstProperty": "İlk Emlakınızı Ekleyin",
+      "near": "Yakınında",
+      "status": {
+        "live": "Canlı",
+        "underReview": "İnceleme Altında",
+        "rejected": "Reddedildi"
+      },
+      "uploaded": "Yüklendi",
+      "views": "Görüntüleme",
+      "inquiries": "Sorular",
+      "rejectionReason": "Reddetme Nedeni",
+      "actions": {
+        "edit": "Düzenle",
+        "delete": "Sil",
+        "viewStats": "İstatistikleri Gör"
+      }
+    },
+    "propertyModal": {
+      "title": "Yeni Emlak Ekle",
+      "submit": "Emlak Gönder",
+      "cancel": "İptal"
+    },
+    "settings": {
+      "title": "Ayarlar",
+      "comingSoon": "Yakında Geliyor"
+    },
+    "messages": {
+      "title": "Mesajlar",
+      "comingSoon": "Yakında Geliyor"
+    },
+    "propertyForm": {
+      "location": {
+        "title": "Konum ve Adres",
+        "googleMaps": "Google Haritalar Adres Bağlantısı",
+        "googleMapsPlaceholder": "https://maps.google.com/... veya tam adresi buraya yapıştırın",
+        "googleMapsDesc": "Kesin konum için Google Haritalar bağlantısını veya tam adresi yapıştırın",
+        "city": "Şehir",
+        "cityPlaceholder": "örn., İstanbul",
+        "district": "İlçe",
+        "districtPlaceholder": "örn., Kadıköy",
+        "neighborhood": "Mahalle",
+        "neighborhoodPlaceholder": "örn., Moda Mahallesi",
+        "fullAddress": "Tam Sokak Adresi",
+        "fullAddressPlaceholder": "Bina numarası, sokak adı vb. ile tam sokak adresi"
+      },
+      "overview": {
+        "title": "Emlak Genel Bakış",
+        "propertyName": "Emlak Adı/Başlığı",
+        "propertyNamePlaceholder": "örn., Kadıköy'de Modern 2+1 Daire",
+        "propertyType": "Emlak Türü",
+        "propertyTypePlaceholder": "Emlak türünü seçin",
+        "rooms": "Oda Konfigürasyonu",
+        "roomsPlaceholder": "Oda türünü seçin",
+        "grossArea": "Brüt Alan (m²)",
+        "grossAreaPlaceholder": "Duvarlar dahil toplam alan",
+        "netArea": "Net Alan (m²)",
+        "netAreaPlaceholder": "Yaşam alanı",
+        "buildingAge": "Bina Yaşı (yıl)",
+        "buildingAgePlaceholder": "Binanın yaşı",
+        "floor": "Kat",
+        "floorPlaceholder": "Hangi kat",
+        "totalFloors": "Toplam Kat",
+        "totalFloorsPlaceholder": "Binadaki toplam kat sayısı",
+        "heating": "Isıtma Türü",
+        "heatingPlaceholder": "Isıtma türünü seçin",
+        "bathrooms": "Banyo Sayısı",
+        "bathroomsPlaceholder": "Kaç banyo",
+        "kitchen": "Mutfak Türü",
+        "kitchenPlaceholder": "Mutfak türünü seçin"
+      },
+      "financial": {
+        "title": "Mali Detaylar",
+        "monthlyRent": "Aylık Kira (₺)",
+        "monthlyRentPlaceholder": "8500",
+        "securityDeposit": "Güvenlik Depozitosu (₺)",
+        "securityDepositPlaceholder": "5000",
+        "parking": "Otopark",
+        "parkingPlaceholder": "Otopark türünü seçin",
+        "openParking": "Açık Otopark",
+        "closedParking": "Kapalı Otopark",
+        "openClosedParking": "Açık ve Kapalı",
+        "streetParking": "Sokak Otoparkı",
+        "noParking": "Otopark Yok"
+      },
+      "contact": {
+        "title": "Üniversite ve İletişim Bilgileri",
+        "nearestUniversity": "En Yakın Üniversite",
+        "selectUniversity": "En yakın üniversiteyi seçin",
+        "contactName": "İletişim Adı",
+        "contactNamePlaceholder": "Tam adınız",
+        "contactEmail": "İletişim E-postası",
+        "contactEmailPlaceholder": "sizin.email@example.com",
+        "contactPhone": "İletişim Telefonu",
+        "contactPhonePlaceholder": "+90 537 973 78 32"
+      },
+      "description": {
+        "title": "Emlak Açıklaması",
+        "placeholder": "Emlakınızı detaylı olarak açıklayın... Benzersiz özellikler, yakındaki olanaklar, ulaşım erişimi, öğrenciler için özel kılan şeyler, mahalle karakteristikleri vb. dahil edin.",
+        "tip": "İpucu: Mahalle, ulaşım, yakındaki mağazalar ve bu emlakı öğrenciler için mükemmel kılan şeyler hakkında ayrıntılar ekleyin!"
+      },
+      "features": {
+        "title": "Emlak Özellikleri ve Bina Olanakları",
+        "buildingType": "Bina Türü",
+        "inComplex": "Konut Kompleksinde",
+        "elevator": "Asansör Mevcut",
+        "outdoorFeatures": "Dış Mekan Özellikleri",
+        "balcony": "Balkon/Teras",
+        "garden": "Bahçe Erişimi",
+        "furnishingPolicies": "Mobilya ve Politikalar",
+        "furnished": "Tamamen Mobilyalı",
+        "smoking": "Sigara İçilebilir",
+        "communityAmenities": "Topluluk Olanakları",
+        "gym": "Spor Salonu/Fitness Merkezi",
+        "swimmingPool": "Yüzme Havuzu",
+        "greenArea": "Bahçe/Yeşil Alan"
+      },
+      "appliances": {
+        "title": "Ev Aletleri ve İç Mekan Özellikleri",
+        "electronics": "Elektronik ve Eğlence",
+        "tv": "TV",
+        "wifi": "WiFi",
+        "airConditioning": "Klima",
+        "kitchen": "Mutfak ve Ev Aletleri",
+        "microwave": "Mikrodalga",
+        "dishwasher": "Bulaşık Makinesi",
+        "coffeeMachine": "Kahve Makinesi",
+        "washingMachine": "Çamaşır Makinesi"
+      }
+    }
+  }
+}

@@ -1,0 +1,361 @@
+{
+    "common": {
+        "login": "LOGIN",
+        "loading": "Loading...",
+        "error": "Error",
+        "tryAgain": "Try Again",
+        "search": "Search",
+        "filter": "Filter",
+        "clear": "Clear",
+        "apply": "Apply",
+        "cancel": "Cancel",
+        "save": "Save",
+        "edit": "Edit",
+        "delete": "Delete",
+        "view": "View",
+        "back": "Back",
+        "next": "Next",
+        "previous": "Previous",
+        "submit": "Submit",
+        "close": "Close"
+    },
+    "header": {
+    "title": "SAKNTALEB - Student Housing Platform",
+    "description": "Find your perfect student accommodation",
+    "home": "Home",
+    "search": "Search",
+    "about": "About",
+    "contact": "Contact",
+    "admin": "Admin"
+    },
+    "auth": {
+        "welcome": "Welcome",
+        "signInDescription": "Sign in with your Google account",
+        "checkingAuth": "Checking authentication...",
+        "redirecting": "Redirecting you to the dashboard...",
+        "loginFailed": "Google login failed. Please try again.",
+        "signingIn": "Signing In..."
+    },
+    "search": {
+        "loading": "Loading properties...",
+        "error": {
+            "title": "Something went wrong",
+            "tryAgain": "Try Again"
+        },
+        "filters": {
+            "location": "Location",
+            "university": "Close to the university",
+            "price": "Price",
+            "min": "Min",
+            "max": "Max",
+            "roomTypes": "Room Types",
+            "clearAll": "Clear all"
+        },
+        "results": {
+            "noProperties": "No properties found matching your criteria."
+        },
+        "map": {
+            "title": "Map",
+            "properties": "properties"
+        },
+        "explanation": {
+            "title": "How to Use Filters",
+            "description": "You can customize your search exactly how you want:",
+            "location": "Location",
+            "locationDesc": "Choose specific Istanbul districts",
+            "university": "University",
+            "universityDesc": "Find housing near your university",
+            "priceRange": "Price Range",
+            "priceRangeDesc": "Set minimum and maximum budget",
+            "roomTypes": "Room Types",
+            "roomTypesDesc": "Select multiple room configurations (bedroom+living room format)",
+            "mixMatch": "Mix and match filters to find your perfect student housing!"
+        },
+        "card": {
+            "propertyInfo": "Property Information",
+            "viewDetails": "View Details"
+        }
+    },
+    "property": {},
+    "contact": {
+        "header": {
+            "title": "Get in Touch",
+            "description": "We welcome your feedback and suggestions to improve your experience. You're part of our community - share your thoughts, questions, or ideas with us!"
+        },
+        "form": {
+            "title": "Send us a Message",
+            "successMessage": "Thank you! Your message has been sent successfully.",
+            "nameLabel": "Name",
+            "namePlaceholder": "Your full name",
+            "emailLabel": "Email Address",
+            "emailPlaceholder": "your.email@example.com",
+            "messageLabel": "Message",
+            "messagePlaceholder": "Share your thoughts, suggestions, questions, or any issues you've encountered. We value every piece of feedback!",
+            "sendButton": "Send Message",
+            "sending": "Sending..."
+        },
+        "community": {
+            "title": "We're Here for You! 🤝",
+            "description1": "Think of us as your friends and partners in finding the perfect student housing. Whether you have suggestions, face any challenges, or simply want to chat about your experience - we're all ears!",
+            "description2": "Every idea you share helps us build a better platform for the entire student community. Your voice matters, and together we'll make student housing search easier for everyone.",
+            "ideaText": "Have an idea? Share it!",
+            "questionsText": "Got questions? Ask away!",
+            "bugText": "Found a bug? Let us know!"
+        },
+        "details": {
+            "title": "Get in Touch Directly",
+            "emailLabel": "Email",
+            "emailAddress": "support@studenthousing.com",
+            "whatsappLabel": "WhatsApp",
+            "whatsappNumber": "+90 555 123 4567",
+            "responseLabel": "Response Time",
+            "responseTime": "Usually within 24 hours"
+        },
+        "features": {
+            "title": "Exciting Features Coming Soon! 🚀",
+            "description": "We're constantly working to improve your experience. Here's what we're building based on your feedback:",
+            "messaging": {
+                "title": "In-Platform Messaging",
+                "description": "Chat directly with property owners and other students without sharing personal contact information. Secure, convenient, and built right into the platform.",
+                "timeline": "Coming Q2 2025"
+            },
+            "reviews": {
+                "title": "Rating & Review System",
+                "description": "Read honest reviews from fellow students and share your own experiences. Help the community make informed decisions about their housing choices.",
+                "timeline": "Coming Q3 2025"
+            },
+            "verified": {
+                "title": "Verified Properties Badge",
+                "description": "Trust with confidence! Properties will be personally verified by our team, ensuring accuracy in photos, prices, and property conditions.",
+                "timeline": "Coming Q4 2025"
+            }
+        },
+        "finalCTA": {
+            "title": "Your Ideas Shape Our Future",
+            "description": "Every feature we build starts with feedback from amazing users like you. Don't hesitate to reach out - we genuinely want to hear from you!",
+            "closing": "Together let's build the best student housing platform! 🏠❤️"
+        }
+    },
+    "home": {
+        "whyChooseService": "WHY CHOOSE OUR SERVICE",
+        "hero": {
+            "commissionFree": "Commission-Free",
+            "studentHousing": "Student Housing",
+            "impian": "Impian",
+            "simpleFastSecure": "Simple. Fast. Secure.",
+            "description": "Find trusted apartments across the country — with no extra fees or hassle.",
+            "browseListings": "Browse Listings"
+        },
+        "why": {
+            "subtitle": "WHY SHOULD YOU USE OUR SERVICE",
+            "title": "We Provide The Best Service Results For Your Apartment",
+            "testimonial": "Adequate facilities, modern place",
+            "testimonialDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            "feature1": "24 Hours Consultation",
+            "feature2": "Certification Team",
+            "feature3": "More Office Branch",
+            "feature4": "Best Work Result"
+        },
+        "listings": {
+            "subtitle": "READ OUR BLOG",
+            "title": "Exciting Article Posts",
+            "viewAllBlog": "VIEW ALL BLOG"
+        }
+    },
+    "footer": {
+        "brand": {
+            "description1": "Best accommodation service application",
+            "description2": "across all apartments and hotels in Indonesia"
+        },
+        "links": {
+            "title": "Quick Links",
+            "home": "Home",
+            "search": "SEARCH",
+            "contact": "CONTACT",
+            "admin": "ADMIN"
+        },
+        "contact": {
+            "title": "Stay with us",
+            "location": "Jakarta, Indonesia",
+            "email": "Hello@Email.com",
+            "phone": "( +62 ) 123 456 789"
+        },
+        "copyright": {
+            "text": "COPYRIGHT",
+            "author": "MOHAMED KAMALELDIN"
+        }
+    },
+    "admin": {
+        "loading": "Loading...",
+        "rejected": "rejected due to",
+        "analytics": "Analytics",
+        "sidebar": {
+            "dashboard": "Dashboard",
+            "properties": "My Properties",
+            "analytics": "Analytics",
+            "messages": "Messages",
+            "settings": "Settings",
+            "profile": "Profile",
+            "hostPortal": "Host Portal",
+            "propertyPortal": "Property Portal",
+            "studentHousing": "Student Housing",
+            "logout": "Logout"
+        },
+        "dashboard": {
+            "title": "Property Management Dashboard",
+            "subtitle": "Manage your student housing listings",
+            "stats": {
+                "totalProperties": "Total Properties",
+                "allTimeUploaded": "All time uploaded",
+                "liveProperties": "Live Properties",
+                "currentlyActive": "Currently active",
+                "underReview": "Under Review",
+                "waitingApproval": "Waiting approval",
+                "rejected": "Rejected",
+                "needRevision": "Need revision"
+            },
+            "actions": {
+                "addProperty": "Add New Property",
+                "addPropertyDesc": "Create a new student housing listing",
+                "manageProperties": "Manage Properties",
+                "managePropertiesDesc": "View and edit your existing listings",
+                "analytics": "Analytics",
+                "analyticsDesc": "View performance metrics and insights"
+            }
+        },
+        "propertyList": {
+            "title": "My Properties",
+            "addProperty": "Add New Property",
+            "noProperties": "No Properties Yet",
+            "noPropertiesDesc": "Start by adding your first property to the platform",
+            "addFirstProperty": "Add Your First Property",
+            "near": "Near",
+            "status": {
+                "live": "Live",
+                "underReview": "Under Review",
+                "rejected": "Rejected"
+            },
+            "uploaded": "Uploaded",
+            "views": "Views",
+            "inquiries": "Inquiries",
+            "rejectionReason": "Rejection Reason",
+            "actions": {
+                "edit": "Edit",
+                "delete": "Delete",
+                "viewStats": "View Stats"
+            }
+        },
+        "propertyModal": {
+            "title": "Add New Property",
+            "submit": "Submit Property",
+            "cancel": "Cancel"
+        },
+        "settings": {
+            "title": "Settings",
+            "comingSoon": "Coming Soon"
+        },
+        "messages": {
+            "title": "Messages",
+            "comingSoon": "Coming Soon"
+        },
+        "propertyForm": {
+            "location": {
+                "title": "Location & Address",
+                "googleMaps": "Google Maps Address Link",
+                "googleMapsPlaceholder": "https://maps.google.com/... or paste full address here",
+                "googleMapsDesc": "Paste Google Maps link or complete address for precise location",
+                "city": "City",
+                "cityPlaceholder": "e.g., Istanbul",
+                "district": "District",
+                "districtPlaceholder": "e.g., Kadıköy",
+                "neighborhood": "Neighborhood",
+                "neighborhoodPlaceholder": "e.g., Moda Mahallesi",
+                "fullAddress": "Complete Street Address",
+                "fullAddressPlaceholder": "Complete street address with building number, street name, etc."
+            },
+            "overview": {
+                "title": "Property Overview",
+                "propertyName": "Property Name/Title",
+                "propertyNamePlaceholder": "e.g., Modern 2+1 Apartment in Kadıköy",
+                "propertyType": "Property Type",
+                "propertyTypePlaceholder": "Select property type",
+                "rooms": "Room Configuration",
+                "roomsPlaceholder": "Select room type",
+                "grossArea": "Gross Area (m²)",
+                "grossAreaPlaceholder": "Total area including walls",
+                "netArea": "Net Area (m²)",
+                "netAreaPlaceholder": "Living space area",
+                "buildingAge": "Building Age (years)",
+                "buildingAgePlaceholder": "Age of the building",
+                "floor": "Floor",
+                "floorPlaceholder": "Which floor",
+                "totalFloors": "Total Floors",
+                "totalFloorsPlaceholder": "Total floors in building",
+                "heating": "Heating Type",
+                "heatingPlaceholder": "Select heating type",
+                "bathrooms": "Number of Bathrooms",
+                "bathroomsPlaceholder": "How many bathrooms",
+                "kitchen": "Kitchen Type",
+                "kitchenPlaceholder": "Select kitchen type"
+            },
+            "financial": {
+                "title": "Financial Details",
+                "monthlyRent": "Monthly Rent (₺)",
+                "monthlyRentPlaceholder": "8500",
+                "securityDeposit": "Security Deposit (₺)",
+                "securityDepositPlaceholder": "5000",
+                "parking": "Parking",
+                "parkingPlaceholder": "Select parking type",
+                "openParking": "Open Parking",
+                "closedParking": "Closed Parking",
+                "openClosedParking": "Open & Closed",
+                "streetParking": "Street Parking",
+                "noParking": "No Parking"
+            },
+            "contact": {
+                "title": "University & Contact Information",
+                "nearestUniversity": "Nearest University",
+                "selectUniversity": "Select nearest university",
+                "contactName": "Contact Name",
+                "contactNamePlaceholder": "Your full name",
+                "contactEmail": "Contact Email",
+                "contactEmailPlaceholder": "your.email@example.com",
+                "contactPhone": "Contact Phone",
+                "contactPhonePlaceholder": "+90 537 973 78 32"
+            },
+            "description": {
+                "title": "Property Description",
+                "placeholder": "Describe your property in detail... Include unique features, nearby amenities, transportation access, what makes it special for students, neighborhood characteristics, etc.",
+                "tip": "Tip: Include details about the neighborhood, transportation, nearby shops, and what makes this property perfect for students!"
+            },
+            "features": {
+                "title": "Property Features & Building Amenities",
+                "buildingType": "Building Type",
+                "inComplex": "In a Residential Complex",
+                "elevator": "Elevator Available",
+                "outdoorFeatures": "Outdoor Features",
+                "balcony": "Balcony/Terrace",
+                "garden": "Garden Access",
+                "furnishingPolicies": "Furnishing & Policies",
+                "furnished": "Fully Furnished",
+                "smoking": "Smoking Allowed",
+                "communityAmenities": "Community Amenities",
+                "gym": "Gym/Fitness Center",
+                "swimmingPool": "Swimming Pool",
+                "greenArea": "Garden/Green Area"
+            },
+            "appliances": {
+                "title": "Appliances & Interior Features",
+                "electronics": "Electronics & Entertainment",
+                "tv": "TV",
+                "wifi": "WiFi",
+                "airConditioning": "Air Conditioning",
+                "kitchen": "Kitchen & Appliances",
+                "microwave": "Microwave",
+                "dishwasher": "Dishwasher",
+                "coffeeMachine": "Coffee Machine",
+                "washingMachine": "Washing Machine"
+            }
+        }
+    }
+}
