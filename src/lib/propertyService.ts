@@ -4,7 +4,7 @@ import { Property, PropertyImage, PropertyFormData } from '@/types/property';
 /**
  * Create a new property in the database
  */
-export async function createProperty(formData: PropertyFormData): Promise<any> {
+export async function createProperty(formData: PropertyFormData): Promise<Property> {
     // Transform form data to match the exact database schema from your SQL
     const propertyData = {
         google_maps_link: formData.googleMapsAddress || null,
@@ -137,7 +137,7 @@ export async function uploadPropertyImages(
  */
 export async function createPropertyWithImages(
     formData: PropertyFormData
-): Promise<{ property: any; images: PropertyImage[] }> {
+): Promise<{ property: Property; images: PropertyImage[] }> {
     try {
         // First, create the property
         const property = await createProperty(formData);
@@ -196,7 +196,7 @@ async function cleanupFailedUploads(uploadedImages: PropertyImage[]): Promise<vo
 /**
  * Get all properties with their images
  */
-export async function getPropertiesWithImages(): Promise<any[]> {
+export async function getPropertiesWithImages(): Promise<(Property & { images: PropertyImage[] })[]> {
     const { data, error } = await supabase
         .from('properties')
         .select(`
@@ -219,7 +219,7 @@ export async function getPropertiesWithImages(): Promise<any[]> {
 /**
  * Get a single property by ID with its images
  */
-export async function getPropertyById(id: number): Promise<any | null> {
+export async function getPropertyById(id: number): Promise<(Property & { images: PropertyImage[] }) | null> {
     const { data, error } = await supabase
         .from('properties')
         .select(`

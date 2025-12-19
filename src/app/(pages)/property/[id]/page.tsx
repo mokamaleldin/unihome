@@ -92,12 +92,13 @@ const PropertyDetailsPage = () => {
     }
 
     // Use property with images if available, otherwise convert base property to PropertyWithImages format
-    const displayProperty: PropertyWithImages = propertyWithImages || (property ? {
+    // At this point, property is guaranteed to exist due to the early return above
+    const displayProperty: PropertyWithImages = propertyWithImages || {
         ...property,
         id: id, // Convert number id to string
         images: [],
         mainImage: property.image
-    } : null as any);
+    };
 
     return (
         <div className="min-h-screen bg-[#F6F3EA]">

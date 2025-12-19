@@ -110,6 +110,7 @@ const ImageUploadSection = ({ formData, handleImageChange }: ImageUploadSectionP
                     <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
                         {Array.from(formData.images).map((file, index) => (
                             <div key={index} className="relative group">
+                                {/* eslint-disable-next-line @next/next/no-img-element */}
                                 <img
                                     src={URL.createObjectURL(file)}
                                     alt={`Preview ${index + 1}`}
@@ -147,6 +148,7 @@ const ImageUploadSection = ({ formData, handleImageChange }: ImageUploadSectionP
                     <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
                         {formData.imageUrls.map((url, index) => (
                             <div key={index} className="relative">
+                                {/* eslint-disable-next-line @next/next/no-img-element */}
                                 <img
                                     src={url}
                                     alt={`Current ${index + 1}`}
