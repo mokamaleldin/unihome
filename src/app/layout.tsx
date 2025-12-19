@@ -7,6 +7,7 @@ import Header from "../component/Header/Header";
 import Footer from "../component/Footer/Footer";
 import { AuthProvider } from "@/contexts/AuthContext";
 import { LanguageProvider } from "@/contexts/LanguageContext";
+import { Analytics } from "@vercel/analytics/next";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -42,6 +43,7 @@ export default function RootLayout({
             <Footer />
           </AuthProvider>
         </LanguageProvider>
+        <Analytics />
       </body>
     </html>
   );
