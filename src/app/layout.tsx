@@ -19,7 +19,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "SAKNTALEB - Student Housing Platform",
+  title: "unihome - Student Housing Platform",
   description: "Find your perfect student accommodation",
 };
 

@@ -16,7 +16,7 @@ const Brand = () => {
                   className="h-10 w-10"
               />
               <span className="text-xl font-bold tracking-wider">
-                  SAKNTALEB
+                  unihome
               </span>
           </Link>
           <p className="text-[#F3ECDC] leading-relaxed">

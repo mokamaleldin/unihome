@@ -12,7 +12,7 @@ const Logo = () => {
               className="h-10 w-10"
           />
           <span className="text-[#F3ECDC] text-xl font-bold tracking-wider">
-              SAKNTALEB
+              unihome
           </span>
       </Link>
   )
